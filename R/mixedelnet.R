@@ -1,10 +1,10 @@
 
 
-# LMM model with lasso penalty on the fixed effects ----------------------
+# LMM model with elnet penalty on the fixed effects ----------------------
 
 # Standard EM algorithm for LMM with elastic-net penalty (no multicycle)
 #' @export
-ecm_lmm_lasso <-
+mixedelnet <-
   function(X ,
            y,
            Z,

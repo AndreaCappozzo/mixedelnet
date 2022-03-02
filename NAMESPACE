@@ -2,8 +2,8 @@
 
 S3method(predict,lmm)
 export(control_EM)
-export(ecm_lmm_lasso)
 export(estep_lmm_cpp)
 export(log_lik_lmm_cpp)
+export(mixedelnet)
 importFrom(Rcpp,sourceCpp)
 useDynLib(mixedelnet, .registration = TRUE)
