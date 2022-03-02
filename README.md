@@ -11,7 +11,7 @@ with elastic-net penalty
 
 ## Installation
 
-You can install the development version of emlmm from
+You can install the development version of mixedelnet from
 [GitHub](https://github.com/) with:
 
 ``` r

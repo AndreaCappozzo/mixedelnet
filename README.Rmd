@@ -22,7 +22,7 @@ An R package for fitting high dimensional linear mixed-effects models with elast
 
 ## Installation
 
-You can install the development version of emlmm from [GitHub](https://github.com/) with:
+You can install the development version of mixedelnet from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
