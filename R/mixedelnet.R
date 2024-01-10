@@ -178,12 +178,15 @@ mixedelnet <-
     # Add parameters names
     names(beta) <- rownames(stats::coef(penalized_regression))
 
+    mu_raneff_OUT <- c(e_step_lmm$mu_raneff)
+    names(mu_raneff_OUT) <- unique(sort(group))
+
     # Collect results
     OUT <-       list(
       beta = beta,
       Omega = Omega,
       sigma2 = sigma2,
-      mu_raneff = e_step_lmm$mu_raneff,
+      mu_raneff = mu_raneff_OUT,
       loglik = loglik,
       loglik_pen = loglik_pen,
       loglik_pen_trace = loglik_pen_vec,
